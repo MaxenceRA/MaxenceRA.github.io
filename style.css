@@ -32,7 +32,7 @@ html { scroll-behavior: smooth; }
 
 body {
   font-family: 'DM Sans', sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.7;
   color: var(--text);
   background-color: var(--light);
@@ -62,7 +62,7 @@ ul { padding-left: 1.3em; }
    ============================================= */
 header {
   background: linear-gradient(135deg, var(--dark) 0%, var(--dark2) 100%);
-  padding: 18px 40px 0;
+  padding: 22px 60px 0;
   border-radius: 0 0 24px 24px;
   box-shadow: 0 8px 40px rgba(26,26,46,0.3);
   position: sticky;
@@ -72,11 +72,11 @@ header {
 
 header h1 {
   font-family: 'Space Mono', monospace;
-  font-size: clamp(0.75rem, 1.5vw, 1rem);
+  font-size: clamp(0.85rem, 1.6vw, 1.15rem);
   font-weight: 700;
   color: rgba(255,255,255,0.9);
   letter-spacing: 0.01em;
-  padding-bottom: 14px;
+  padding-bottom: 16px;
 }
 
 /* =============================================
@@ -96,10 +96,10 @@ header h1 {
   display: inline-block;
   font-family: 'DM Sans', sans-serif;
   font-weight: 500;
-  font-size: 0.87rem;
+  font-size: 0.97rem;
   color: rgba(255,255,255,0.65);
   text-decoration: none;
-  padding: 10px 15px;
+  padding: 12px 18px;
   border-radius: 10px 10px 0 0;
   border: none;
   border-bottom: 3px solid transparent;
@@ -244,12 +244,12 @@ header h1 {
    ============================================= */
 section {
   background: var(--card-bg);
-  max-width: 1100px;
+  max-width: 1300px;
   margin: 2.5em auto;
-  padding: 2.5em;
+  padding: 3em;
   border-radius: var(--radius);
   box-shadow: var(--shadow-md);
-  font-size: 1rem;
+  font-size: 1.05rem;
   border: 1px solid var(--border);
   position: relative;
   overflow: hidden;
@@ -264,7 +264,7 @@ section::before {
 }
 
 section h2 {
-  font-size: 1.55rem;
+  font-size: 1.9rem;
   color: var(--dark);
   margin-bottom: 1.2em;
   padding-bottom: 0.6em;
@@ -458,7 +458,7 @@ section h3 {
 /* =============================================
    PAGE PROJETS
    ============================================= */
-#projets-sio { max-width: 1100px; }
+#projets-sio { max-width: 1300px; }
 
 #projets-sio h2 { color: var(--text); justify-content: center; }
 
